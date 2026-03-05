@@ -12,7 +12,7 @@ const app = createApp({
       </div>
     </div>
     <div class="p-3 flex justify-center"> 
-      <span> Yes, this is my portfolio website! It's now in development. Come back later! </span>
+      <span> Yes, this is my portfolio website! It's now in development. Come back in some months! </span>
     </div>
   `
 })
