@@ -1,3 +1,6 @@
+const pagesRoot = 'Pages'
+const mainFile = 'index.html'
+
 const routes = [
     {
         "id" : "main",
@@ -14,4 +17,4 @@ const routes = [
 ]
 
 
-export default routes;
+export { routes, pagesRoot, mainFile } ;
