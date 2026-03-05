@@ -11,6 +11,9 @@ const app = createApp({
         <MyName />
       </div>
     </div>
+    <div class="p-3 flex justify-center"> 
+      <span> Yes, this is my portfolio website! It's now in development. Come back later! </span>
+    </div>
   `
 })
 
