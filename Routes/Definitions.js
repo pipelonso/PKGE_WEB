@@ -4,15 +4,15 @@ const mainFile = 'index.html'
 const routes = [
     {
         "id" : "main",
-        "path" : "../index.html"
+        "path" : "/index.html"
     },
     {
         "id" : "about",
-        "path" : "../Pages/About.html"
+        "path" : "/Pages/About.html"
     },
     {
         "id" : "contact",
-        "path" : "../Pages/Contact.html"
+        "path" : "/Pages/Contact.html"
     }
 ]
 
