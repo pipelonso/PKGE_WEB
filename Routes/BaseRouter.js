@@ -27,7 +27,7 @@ class BaseRouter {
             }
 
         }else {
-            if (currentUrl.endsWith(mainFile)) {
+            if (currentUrl.endsWith(mainFile) || currentUrl.endsWith('/')) {
                 currentUrlSplit = currentUrlSplit.slice(0, currentUrlSplit.length - 1);
                 currentUrlSplit[0] = currentUrlSplit[0].replace("•", "://")
                 path = currentUrlSplit.join("/");
