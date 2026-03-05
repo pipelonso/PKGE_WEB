@@ -1,19 +1,20 @@
 import { createApp } from './resources/javascript/vue.js'
 
-import Counter from './components/Counter.js'
-import Card from './components/Card.js'
 import Sidebar from './components/Sidebar.js'
+import MyName from './components/Partials/Main/MyName.js'
 
 const app = createApp({
   template: `
     <div class="p-2">
       <Sidebar />
+      <div class="p-3"> 
+        <MyName />
+      </div>
     </div>
   `
 })
 
-app.component('Counter', Counter)
-app.component('Card', Card)
 app.component('Sidebar', Sidebar)
+app.component('MyName', MyName)
 
 app.mount('#app')
