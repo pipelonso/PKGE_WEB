@@ -17,7 +17,7 @@ export default {
   },
   methods: { 
     defineRoute(id) {
-      return new BaseRouter().findRoute(id).path
+      return new BaseRouter().findRoute(id)
     }
   },  
   template: `
